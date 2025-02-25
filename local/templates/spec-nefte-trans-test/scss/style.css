@@ -1,0 +1,42 @@
+:root {
+  font-size: 10px;
+}
+
+/* body styles */
+.main-page {
+  width: 100%;
+  padding-top: 25px;
+}
+
+/* header styles */
+/* menu styles*/
+.navigation .navigation__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.navigation .navigation__list .navigation__item {
+  position: relative;
+}
+.navigation .navigation__list .navigation__item::after {
+  content: " ";
+  height: 1px;
+  width: 0;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background: #e21936;
+  transition: all 0.3s ease;
+}
+.navigation .navigation__list .navigation__item:hover::after, .navigation .navigation__list .navigation__item:focus::after, .navigation .navigation__list .navigation__item:active::after {
+  transition: all 0.3s ease;
+  width: 100%;
+}
+.navigation .navigation__list .navigation__item a {
+  color: #e21936;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: "Roboto", serif;
+}
+
+/* footer styles*//*# sourceMappingURL=style.css.map */
