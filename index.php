@@ -100,7 +100,123 @@
 </div>
 
 <div class="service">
-
+    <div class="service__wrap">
+        <h2>Наши услуги</h2>
+        <div class="service__wrapper">
+            <div class="service-card">
+                <a class="service-card__wrap" href="#">
+                    <div class="service-card__image">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/images/photo-1.png" alt="">
+                    </div>
+                    <div class="service-card__info">
+                        <h3 class="service-card__title">Автотранспортные услуги</h3>
+                        <div class="service-card__stroke"></div>
+                        <p class="service-card__text">Компания «Спецнефтетранс» оказывает широкий спектр услуг
+                            автомобильным
+                            и специальным транспортом.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="service-card">
+                <a class="service-card__wrap" href="#">
+                    <div class="service-card__image">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/images/photo-2.png" alt="">
+                    </div>
+                    <div class="service-card__info">
+                        <h3 class="service-card__title">Автотранспортные услуги</h3>
+                        <div class="service-card__stroke"></div>
+                        <p class="service-card__text">Компания «Спецнефтетранс» оказывает широкий спектр услуг
+                            автомобильным
+                            и специальным транспортом.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="service-card">
+                <a class="service-card__wrap" href="#">
+                    <div class="service-card__image">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/images/photo-3.png" alt="">
+                    </div>
+                    <div class="service-card__info">
+                        <h3 class="service-card__title">Автотранспортные услуги</h3>
+                        <div class="service-card__stroke"></div>
+                        <p class="service-card__text">Компания «Спецнефтетранс» оказывает широкий спектр услуг
+                            автомобильным
+                            и специальным транспортом.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="service-card">
+                <a class="service-card__wrap" href="#">
+                    <div class="service-card__image">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/images/photo-4.png" alt="">
+                    </div>
+                    <div class="service-card__info">
+                        <h3 class="service-card__title">Автотранспортные услуги</h3>
+                        <div class="service-card__stroke"></div>
+                        <p class="service-card__text">Компания «Спецнефтетранс» оказывает широкий спектр услуг
+                            автомобильным
+                            и специальным транспортом.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="service-card">
+                <a class="service-card__wrap" href="#">
+                    <div class="service-card__image">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/images/photo-5.png" alt="">
+                    </div>
+                    <div class="service-card__info">
+                        <h3 class="service-card__title">Автотранспортные услуги</h3>
+                        <div class="service-card__stroke"></div>
+                        <p class="service-card__text">Компания «Спецнефтетранс» оказывает широкий спектр услуг
+                            автомобильным
+                            и специальным транспортом.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="service-card">
+                <a class="service-card__wrap" href="#">
+                    <div class="service-card__image">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/images/photo-6.png" alt="">
+                    </div>
+                    <div class="service-card__info">
+                        <h3 class="service-card__title">Автотранспортные услуги</h3>
+                        <div class="service-card__stroke"></div>
+                        <p class="service-card__text">Компания «Спецнефтетранс» оказывает широкий спектр услуг
+                            автомобильным
+                            и специальным транспортом.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="service-card">
+                <a class="service-card__wrap" href="#">
+                    <div class="service-card__image">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/images/photo-empty.png" alt="">
+                    </div>
+                    <div class="service-card__info">
+                        <h3 class="service-card__title">Автотранспортные услуги</h3>
+                        <div class="service-card__stroke"></div>
+                        <p class="service-card__text">Компания «Спецнефтетранс» оказывает широкий спектр услуг
+                            автомобильным
+                            и специальным транспортом.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="service-card">
+                <a class="service-card__wrap" href="#">
+                    <div class="service-card__image">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/images/photo-empty.png" alt="">
+                    </div>
+                    <div class="service-card__info">
+                        <h3 class="service-card__title">Автотранспортные услуги</h3>
+                        <div class="service-card__stroke"></div>
+                        <p class="service-card__text">Компания «Спецнефтетранс» оказывает широкий спектр услуг
+                            автомобильным
+                            и специальным транспортом.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
