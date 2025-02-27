@@ -3,11 +3,12 @@ $white: #ffffff;
 $black: #000000;
 $grey: #868686;
 $light-black: #231f20;
-$light-gray: #f1f1f1;
+$dark-grey: #4d4d4d;
 $dirty-white: #f1f1f1;
 
 $roboto: "Roboto", serif;
 
 :root {
   font-size: 10px;
+  font-family: $roboto;
 }

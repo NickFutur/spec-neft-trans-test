@@ -1,0 +1,7 @@
+.banner {
+  width: 100%;
+  background-color: $dirty-white;
+  .banner-wrap {
+    @import "banner-slider";
+  }
+}

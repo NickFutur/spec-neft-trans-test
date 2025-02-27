@@ -1,17 +1,26 @@
-BX.ready(function () {
-  // const traineeshipSlider = new Swiper("#js-traineeship-slider", {
-  //   // Optional parameters
-  //   direction: "horizontal",
-  //   loop: true,
-  //   autoplay: false,
-  //   slidesPerView: 3,
-  //   spaceBetween: 35,
-  //   slidesPerGroup: 3,
+const bannerSlider = new Swiper("#js-banner-slider", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+  autoplay: false,
+  slidesPerView: 1,
+  slidesPerGroup: 1,
   //   // Navigation arrows
-  //   navigation: {
-  //     nextEl: ".traineeship-slider__btn-next",
-  //     prevEl: ".traineeship-slider__btn-prev",
-  //   },
+  navigation: {
+    nextEl: ".banner-pagination__btn-next",
+    prevEl: ".banner-pagination__btn-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "custom",
+    renderCustom: function (bannerSlider, current, total) {
+      return `<span class="pagination-current">${("0" + current).slice(
+        -2
+      )}</span>/<span class="pagination-total">${("0" + total).slice(
+        -2
+      )}</span>`;
+    },
+  },
   //   breakpoints: {
   //     0: {
   //       direction: "vertical",
@@ -37,5 +46,7 @@ BX.ready(function () {
   //       slidesPerGroup: 3,
   //     },
   //   },
-  // });
+});
+bannerSlider.on("slideChange", function () {
+  bannerSlider.pagination.render();
 });
