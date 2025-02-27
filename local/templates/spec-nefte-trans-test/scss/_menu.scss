@@ -6,12 +6,13 @@
     gap: 25px;
     .navigation__item {
       position: relative;
+      height: 100%;
       &::after {
         content: " ";
-        height: 1px;
+        height: 1.5px;
         width: 0;
         position: absolute;
-        bottom: -5px;
+        bottom: -26px;
         left: 0;
         background: $red;
         transition: all 0.3s ease;
@@ -25,10 +26,12 @@
         }
       }
       a {
-        color: $red;
+        color: $light-black;
         text-decoration: none;
-        font-size: 1.4rem;
         font-family: $roboto;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 125%;
       }
     }
   }
